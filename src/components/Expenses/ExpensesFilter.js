@@ -1,7 +1,7 @@
 import React from 'react';
 import './ExpensesFilter.css';
 
-const ExpensesFilter = () => {
+const ExpensesFilter = (props) => {
   const dropdownChangeHalder = (event) => {
     props.onChangeFilter(event.target.value);
   };
